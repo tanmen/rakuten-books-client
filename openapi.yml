@@ -1,0 +1,197 @@
+openapi: "3.0.3"
+info:
+  version: 0.0.0
+  title: Rakute Books Api
+servers:
+  - url: https://app.rakuten.co.jp/services/api
+paths:
+  /BooksBook/Search/20170404:
+    get:
+      summary: List all books
+      operationId: listBooks
+      tags: [Book]
+      parameters:
+        - name: applicationId
+          in: query
+          description: application id
+          required: true
+          schema:
+            type: integer
+        - name: format
+          in: query
+          description: output format
+          required: true
+          schema:
+            type: string
+            enum:
+              - json
+        - name: title
+          in: query
+          description: book title
+          schema:
+            type: string
+        - name: booksGenreId
+          in: query
+          description: book genre id
+          schema:
+            type: integer
+        - name: isbn
+          in: query
+          description: book genre id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: A paged array of books
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Response"
+components:
+  schemas:
+    Response:
+      type: object
+      required: [GenreInformation, Items, carrier, count, first, hits, last, page, pageCount]
+      properties:
+        GenreInformation:
+          type: array
+          items:
+            type: object
+        Items:
+          type: array
+          items:
+            type: object
+            properties:
+              Item:
+                $ref: "#/components/schemas/Book"
+        carrier:
+          type: integer
+        count:
+          type: integer
+        first:
+          type: integer
+        hits:
+          type: integer
+        last:
+          type: integer
+        page:
+          type: integer
+        pageCount:
+          type: integer
+    Book:
+      type: object
+      required:
+        - affiliateUrl
+        - author
+        - authorKana
+        - availability
+        - booksGenreId
+        - chirayomiUrl
+        - contents
+        - discountPrice
+        - discountRate
+        - isbn
+        - itemCaption
+        - itemPrice
+        - itemUrl
+        - largeImageUrl
+        - limitedFlag
+        - listPrice
+        - mediumImageUrl
+        - postageFlag
+        - publisherName
+        - reviewAverage
+        - reviewCount
+        - salesDate
+        - seriesName
+        - seriesNameKana
+        - size
+        - smallImageUrl
+        - subTitle
+        - subTitleKana
+        - title
+        - titleKana
+      properties:
+        affiliateUrl:
+          type: string
+        author:
+          type: string
+          example: "吾峠 呼世晴"
+        authorKana:
+          type: string
+          example: "ゴトウゲ コヨハル"
+        availability:
+          type: string
+          example: "1"
+        booksGenreId:
+          type: string
+          example: "001009009007/001009009009"
+        chirayomiUrl:
+          type: string
+        contents:
+          type: string
+        discountPrice:
+          type: integer
+          example: 0
+        discountRate:
+          type: integer
+          example: 0
+        isbn:
+          type: string
+          example: "9784087900491"
+        itemCaption:
+          type: string
+          example: "蝶屋敷で過ごす隊士たちや無限列車での熱き戦いを描いたイラストなど、計３７点を収録。一部のページは切り取ることができ、カバー裏は塗絵となったカラーイラストがデザインされた「特別ポスター」に！"
+        itemPrice:
+          type: integer
+          example: 880
+        itemUrl:
+          type: string
+          example: "https://books.rakuten.co.jp/rb/16789987/"
+        largeImageUrl:
+          type: string
+          example: "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0491/9784087900491_1_9.jpg?_ex=200x200"
+        limitedFlag:
+          type: integer
+          example: 0
+        listPrice:
+          type: integer
+          example: 0
+        mediumImageUrl:
+          type: string
+          example: "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0491/9784087900491_1_9.jpg?_ex=120x120"
+        postageFlag:
+          type: integer
+          example: 2
+        publisherName:
+          type: string
+          example: "集英社"
+        reviewAverage:
+          type: string
+          example: "4.78"
+        reviewCount:
+          type: integer
+          example: 9
+        salesDate:
+          type: string
+          example: "2021年10月04日頃"
+        seriesName:
+          type: string
+        seriesNameKana:
+          type: string
+        size:
+          type: string
+          example: "単行本"
+        smallImageUrl:
+          type: string
+          example: "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0491/9784087900491_1_9.jpg?_ex=64x64"
+        subTitle:
+          type: string
+        subTitleKana:
+          type: string
+        title:
+          type: string
+          example: "鬼滅の刃 塗絵帳 -橙ー"
+        titleKana:
+          type: string
+          example: "キメツノヤイバ ヌリエチョウ ダイダイ"
