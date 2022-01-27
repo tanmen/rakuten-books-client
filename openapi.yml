@@ -16,7 +16,7 @@ paths:
           description: application id
           required: true
           schema:
-            type: integer
+            type: string
         - name: format
           in: query
           description: output format
