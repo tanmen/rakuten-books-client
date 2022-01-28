@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/tanmen/rakuten-books-client/compare/v1.0.7...v1.0.8) (2022-01-28)
+
+
+### Bug Fixes
+
+* update generater ([e4834a5](https://github.com/tanmen/rakuten-books-client/commit/e4834a54f5228f7185715a27e0992f6def4e6d6a))
+
 ## [1.0.7](https://github.com/tanmen/rakuten-books-client/compare/v1.0.6...v1.0.7) (2022-01-28)
 
 
