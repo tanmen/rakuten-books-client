@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/tanmen/rakuten-books-client/compare/v1.0.3...v1.0.4) (2022-01-28)
+
+
+### Bug Fixes
+
+* generate types ([2bf13d9](https://github.com/tanmen/rakuten-books-client/commit/2bf13d9aea4aa2ba6e2bb5f80d4a5f4ddab1651a))
+
 ## [1.0.3](https://github.com/tanmen/rakuten-books-client/compare/v1.0.2...v1.0.3) (2022-01-28)
 
 
