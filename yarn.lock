@@ -21,10 +21,10 @@
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.6.tgz#5b62b44f2ea1a7f0a7c8885b325247abd92c7081"
-  integrity sha512-22PPCSoMuZ3H+lxSTDCazJL/ghaoe1pDMRBCfGamDLMUeqHb1E+c+3S+PxZ/Jfjb3YpDGCnw/SIwjMoOnBzlAg==
+"@automatons/typescript-client-axios@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.8.tgz#be4339db38cd7cfcf883504df3770314616f1f49"
+  integrity sha512-ZeSwhJ0EaXGHKrgeTuqHpYvHZIyKS/k2edlr7jsvVZkfHlME464/thfTP+bqV6foApjp7i27IFOJ3n45HO0hcQ==
   dependencies:
     "@automatons/parser" "^0.0.63"
     "@automatons/tools" "^1.0.8"
