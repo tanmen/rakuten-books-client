@@ -3,6 +3,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es2019",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -19,5 +22,5 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist"
   },
-  "exclude": ["node_modules"]
+  "include": ["src"]
 }
