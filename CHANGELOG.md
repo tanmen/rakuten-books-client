@@ -1,3 +1,15 @@
+## [1.0.3](https://github.com/tanmen/rakuten-books-client/compare/v1.0.2...v1.0.3) (2022-01-28)
+
+
+### Bug Fixes
+
+* add type ([16a779e](https://github.com/tanmen/rakuten-books-client/commit/16a779e02eaf41b25e7b3ac189b993304ddf1cdf))
+
+
+### Performance Improvements
+
+* openapi-generator -> openapi-automatons ([f2ab54a](https://github.com/tanmen/rakuten-books-client/commit/f2ab54a9859ab77b32aef4eea3743dec85b63bf8))
+
 ## [1.0.2](https://github.com/tanmen/rakuten-books-client/compare/v1.0.1...v1.0.2) (2022-01-27)
 
 
