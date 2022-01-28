@@ -2,10 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
-    "target": "es2019",
+    "target": "esnext",
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
+    "inlineSourceMap": true,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
