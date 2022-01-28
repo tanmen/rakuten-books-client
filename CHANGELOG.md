@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/tanmen/rakuten-books-client/compare/v1.0.4...v1.0.5) (2022-01-28)
+
+
+### Bug Fixes
+
+* invalid main path ([2713942](https://github.com/tanmen/rakuten-books-client/commit/27139424b2b056a95488529f706e14a713964ec5))
+
 ## [1.0.4](https://github.com/tanmen/rakuten-books-client/compare/v1.0.3...v1.0.4) (2022-01-28)
 
 
