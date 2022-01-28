@@ -1,0 +1,7 @@
+{
+  "openapi": "openapi.yml",
+  "automatons": [{
+    "automaton": "@automatons/typescript-client-axios",
+    "outDir": "src"
+  }]
+}

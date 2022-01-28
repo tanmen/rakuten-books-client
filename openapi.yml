@@ -17,29 +17,22 @@ paths:
           required: true
           schema:
             type: string
+        - name: book
+          in: query
+          required: true
+          description: book property
+          explode: true
+          style: form
+          schema:
+            $ref: "#/components/schemas/BookParam"
         - name: format
           in: query
           description: output format
-          required: true
           schema:
             type: string
+            default: json
             enum:
               - json
-        - name: title
-          in: query
-          description: book title
-          schema:
-            type: string
-        - name: booksGenreId
-          in: query
-          description: book genre id
-          schema:
-            type: integer
-        - name: isbn
-          in: query
-          description: book genre id
-          schema:
-            type: integer
       responses:
         '200':
           description: A paged array of books
@@ -195,3 +188,12 @@ components:
         titleKana:
           type: string
           example: "キメツノヤイバ ヌリエチョウ ダイダイ"
+    BookParam:
+      type: object
+      properties:
+        title:
+          type: string
+        booksGenreId:
+          type: integer
+        isbn:
+          type: integer
