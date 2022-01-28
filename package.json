@@ -6,6 +6,7 @@
   "scripts": {
     "generate": "openapi-automatons",
     "build": "tsc",
+    "postbuild": "rsync -a src dist/src --exclude '__tests__' --exclude '*.test.*' --exclude '*.spec.*'",
     "presemantic-release": "cp package.json README.md LICENSE dist",
     "semantic-release": "semantic-release"
   },
