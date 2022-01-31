@@ -12,10 +12,10 @@
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.62", "@automatons/tools@^1.0.63", "@automatons/tools@^1.0.8":
-  version "1.0.63"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.63.tgz#b5abaf7a0b4827efbab9c6e3c91817e6315022cf"
-  integrity sha512-PGdKZJM3uOMhvGXfTT+gl7f797zao/mliREjALijADdDmHbGNI52pG7f3ZxZ98h2MnWQwpEvfPzv3ROXwJhrkA==
+"@automatons/tools@^1.0.62", "@automatons/tools@^1.0.64", "@automatons/tools@^1.0.8":
+  version "1.0.64"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.64.tgz#f5988269384d2e6e9f5ec3b79767b47b1b6cee66"
+  integrity sha512-xHQ/zkU93sL0A1gOa9Xmz76Ae11ekmlsVCRIXZuFAB1G5p7Wz8tbqnbEBmQPfPBWUy24bCQsFo2YcuVrkfL1Ig==
   dependencies:
     fs-extra "^10.0.0"
     js-yaml "^4.1.0"
@@ -4114,12 +4114,12 @@ onetime@^5.1.0, onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-openapi-automatons@^1.0.36:
-  version "1.0.36"
-  resolved "https://registry.yarnpkg.com/openapi-automatons/-/openapi-automatons-1.0.36.tgz#95f17c542bab2f633c7de24beb4555964aa23010"
-  integrity sha512-hk+Gg5lSNKeyYERt3t6FOfEJLNlAdtvgHd+2i4akIS8D+PGOHR/HGDmqq+0v6+OtXwv5yPggVEsRpRK6WBp+Cw==
+openapi-automatons@^1.0.40:
+  version "1.0.40"
+  resolved "https://registry.yarnpkg.com/openapi-automatons/-/openapi-automatons-1.0.40.tgz#f41ea47a4ae538c2356f00d83122cd0f062092df"
+  integrity sha512-DTvezB77x5Bs1zqhaEKVTC7Nu9Wz8lffeWW717aqj6+k35ZiSMqyeMVyF7sy9PtuMiYUpURYf/yBg6XEdm2XTQ==
   dependencies:
-    "@automatons/tools" "^1.0.63"
+    "@automatons/tools" "^1.0.64"
     "@automatons/validator" "^1.0.49"
     chalk "^4.1.2"
     fs-extra "^10.0.0"
