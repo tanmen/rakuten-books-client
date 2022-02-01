@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.63":
-  version "0.0.63"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.63.tgz#a7fbbc8d27ef3784add297114427a208d324609c"
-  integrity sha512-EWAUZC02DgQ5LRENYJMlwlDpRCULOx99chmCKQjkFWe3fuvz+1kvwl1f9EaFgHGlZIwVchN/853figWCUeMPmA==
+"@automatons/parser@^0.0.64":
+  version "0.0.64"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.64.tgz#8e35566329554eb2bbdcf8150a39a7bc54101caa"
+  integrity sha512-aPofPQlAa0ObPqMnkppeQLH1bQy4XyS4JlTqr5p5HhvML1QbGG8T+1J6KaKLP+kndg+sOTH5lILOLZLRjZULsA==
   dependencies:
-    "@automatons/tools" "^1.0.62"
+    "@automatons/tools" "^1.0.63"
     change-case "^4.1.1"
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.62", "@automatons/tools@^1.0.63", "@automatons/tools@^1.0.8":
+"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.8":
   version "1.0.63"
   resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.63.tgz#b5abaf7a0b4827efbab9c6e3c91817e6315022cf"
   integrity sha512-PGdKZJM3uOMhvGXfTT+gl7f797zao/mliREjALijADdDmHbGNI52pG7f3ZxZ98h2MnWQwpEvfPzv3ROXwJhrkA==
@@ -21,12 +21,12 @@
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.8.tgz#be4339db38cd7cfcf883504df3770314616f1f49"
-  integrity sha512-ZeSwhJ0EaXGHKrgeTuqHpYvHZIyKS/k2edlr7jsvVZkfHlME464/thfTP+bqV6foApjp7i27IFOJ3n45HO0hcQ==
+"@automatons/typescript-client-axios@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.9.tgz#526de400615944e46eb5669d6f795080ec0d246d"
+  integrity sha512-cRkprAy8CseMrJRTNyxZJxZXwGJUtvBRXU7pgC/+Vsyylhkrl8jpHGvEqzcUU2SqzJEuxRrYzXDqe0OTt6ajUg==
   dependencies:
-    "@automatons/parser" "^0.0.63"
+    "@automatons/parser" "^0.0.64"
     "@automatons/tools" "^1.0.8"
     eslint "^8.7.0"
     fs-extra "^9.0.0"
