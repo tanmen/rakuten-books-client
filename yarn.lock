@@ -2,32 +2,32 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.63":
-  version "0.0.63"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.63.tgz#a7fbbc8d27ef3784add297114427a208d324609c"
-  integrity sha512-EWAUZC02DgQ5LRENYJMlwlDpRCULOx99chmCKQjkFWe3fuvz+1kvwl1f9EaFgHGlZIwVchN/853figWCUeMPmA==
+"@automatons/parser@^0.0.72":
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.72.tgz#4aab24d30810e6c4aed07e95d9b03ff070c304b9"
+  integrity sha512-Q9YQ5kigKKgLNgsyugpwHmW9knOBNV6TjF2TA9f4M7Q7td6eJycjmk4c/sL03eqygwwNTBLuN+rM86KHgrTp7Q==
   dependencies:
-    "@automatons/tools" "^1.0.62"
+    "@automatons/tools" "^1.0.70"
     change-case "^4.1.1"
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.62", "@automatons/tools@^1.0.63", "@automatons/tools@^1.0.8":
-  version "1.0.63"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.63.tgz#b5abaf7a0b4827efbab9c6e3c91817e6315022cf"
-  integrity sha512-PGdKZJM3uOMhvGXfTT+gl7f797zao/mliREjALijADdDmHbGNI52pG7f3ZxZ98h2MnWQwpEvfPzv3ROXwJhrkA==
+"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.67", "@automatons/tools@^1.0.70":
+  version "1.0.71"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.71.tgz#47c62dbff7733e63ea792b2a8ab8f2ecf9a03ce1"
+  integrity sha512-8HnAdYJvRkqcnJOvKKfGuC1RbakWdjWDx/JSwj2v44GmCoEJrZ96t1b06L0lx1kAOPZ83Fn7noK8wVNnI/IcCw==
   dependencies:
     fs-extra "^10.0.0"
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.8.tgz#be4339db38cd7cfcf883504df3770314616f1f49"
-  integrity sha512-ZeSwhJ0EaXGHKrgeTuqHpYvHZIyKS/k2edlr7jsvVZkfHlME464/thfTP+bqV6foApjp7i27IFOJ3n45HO0hcQ==
+"@automatons/typescript-client-axios@^1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.21.tgz#5324c5af82958a8395232c24d67b196523546b46"
+  integrity sha512-9sp8SlMlkGZoVN72LO2GDBjZkxbqCoYAsO2Y/xM/IzdEn+eNXdPyBR89wyXUZ1QyMd3ApAQmPzvoW8oyLHXRDw==
   dependencies:
-    "@automatons/parser" "^0.0.63"
-    "@automatons/tools" "^1.0.8"
+    "@automatons/parser" "^0.0.72"
+    "@automatons/tools" "^1.0.67"
     eslint "^8.7.0"
     fs-extra "^9.0.0"
     glob "^7.2.0"
