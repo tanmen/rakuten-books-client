@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "axios": "^0.25.0",
-    "object-to-formdata": "^4.4.1"
+    "object-to-formdata": "^4.4.2"
   }
 }
