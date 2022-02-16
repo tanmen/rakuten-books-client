@@ -12,10 +12,10 @@
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.62", "@automatons/tools@^1.0.63", "@automatons/tools@^1.0.8":
-  version "1.0.63"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.63.tgz#b5abaf7a0b4827efbab9c6e3c91817e6315022cf"
-  integrity sha512-PGdKZJM3uOMhvGXfTT+gl7f797zao/mliREjALijADdDmHbGNI52pG7f3ZxZ98h2MnWQwpEvfPzv3ROXwJhrkA==
+"@automatons/tools@^1.0.62", "@automatons/tools@^1.0.76", "@automatons/tools@^1.0.8":
+  version "1.0.76"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.76.tgz#96cbe73d155bd7e750f436a793bad1b21f080194"
+  integrity sha512-uQPvZ5Ne2CSwkMqobAvvrr2Ayay3npT34jKrAp1/st1WvXjF+KSXqh8StiOOMYCmalD17f0iVsllSgi0a7YLOw==
   dependencies:
     fs-extra "^10.0.0"
     js-yaml "^4.1.0"
@@ -35,10 +35,10 @@
     handlebars-helpers "^0.10.0"
     prettier "^2.5.1"
 
-"@automatons/validator@^1.0.49":
-  version "1.0.49"
-  resolved "https://registry.yarnpkg.com/@automatons/validator/-/validator-1.0.49.tgz#144fe00234900fa93b8a1cc0bd06b148a9eb468c"
-  integrity sha512-fg3QMSwz8jgumPvM8uW2noZnO5mqC2/n2zEZDVExslRq2FmcskMAPEtiSwe1FlS5aAfH7I5vh/jAr3vssaHPZQ==
+"@automatons/validator@^1.0.56":
+  version "1.0.58"
+  resolved "https://registry.yarnpkg.com/@automatons/validator/-/validator-1.0.58.tgz#5ae74ff6e2e6911ea1f9073d1dd108b202735e16"
+  integrity sha512-BgmDnxX7280pyLYDJP7ILOSXHigDyKm10ojhOZWQgzUb4N/RBkEA3/hN9VKIdvaibeudbDUdskx1t1crG8pAwg==
   dependencies:
     "@hyperjump/json-schema" "^0.18.4"
 
@@ -4114,14 +4114,14 @@ onetime@^5.1.0, onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-openapi-automatons@^1.0.36:
-  version "1.0.36"
-  resolved "https://registry.yarnpkg.com/openapi-automatons/-/openapi-automatons-1.0.36.tgz#95f17c542bab2f633c7de24beb4555964aa23010"
-  integrity sha512-hk+Gg5lSNKeyYERt3t6FOfEJLNlAdtvgHd+2i4akIS8D+PGOHR/HGDmqq+0v6+OtXwv5yPggVEsRpRK6WBp+Cw==
+openapi-automatons@^1.0.61:
+  version "1.0.61"
+  resolved "https://registry.yarnpkg.com/openapi-automatons/-/openapi-automatons-1.0.61.tgz#1db5568549fbc4f1fdc558cced7c10ad651e0219"
+  integrity sha512-joBXiSjVb4VyXkZVu+8FWEv4qJYejER8Cxy4RuOuaZuU+BUP6LU1PYql6TOdAWsWWfVvL23rIbzPtIWWRMcd2Q==
   dependencies:
-    "@automatons/tools" "^1.0.63"
-    "@automatons/validator" "^1.0.49"
-    chalk "^4.1.2"
+    "@automatons/tools" "^1.0.76"
+    "@automatons/validator" "^1.0.56"
+    chalk "^5.0.0"
     fs-extra "^10.0.0"
     ora "5.4.1"
     yup "0.28.5"
