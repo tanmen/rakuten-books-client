@@ -2,32 +2,32 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.63":
-  version "0.0.63"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.63.tgz#a7fbbc8d27ef3784add297114427a208d324609c"
-  integrity sha512-EWAUZC02DgQ5LRENYJMlwlDpRCULOx99chmCKQjkFWe3fuvz+1kvwl1f9EaFgHGlZIwVchN/853figWCUeMPmA==
+"@automatons/parser@^0.0.84":
+  version "0.0.84"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.84.tgz#1351adadb1b59495e86cbee8126d0df20e47781a"
+  integrity sha512-XtxK+AMvT5yJvLd0udiYhfTNJ9AAdLRV8ezn9FQRL7hEnX028E/GsULeetR2rPindYM9cwUUa1UE55WgWoovfA==
   dependencies:
-    "@automatons/tools" "^1.0.62"
+    "@automatons/tools" "^1.0.80"
     change-case "^4.1.1"
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.62", "@automatons/tools@^1.0.63", "@automatons/tools@^1.0.8":
-  version "1.0.63"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.63.tgz#b5abaf7a0b4827efbab9c6e3c91817e6315022cf"
-  integrity sha512-PGdKZJM3uOMhvGXfTT+gl7f797zao/mliREjALijADdDmHbGNI52pG7f3ZxZ98h2MnWQwpEvfPzv3ROXwJhrkA==
+"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.67", "@automatons/tools@^1.0.80":
+  version "1.0.80"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.80.tgz#94e769a777a5686e291565dcd860b77b0b4fd8ef"
+  integrity sha512-LoGdCyh98huV8F6iC2fMCl+ljwZGUChKUeUJan6AD3BBQTO4rGzv5OB/p4+sXcwblNqTNJAF8eOcypCFiwNxCA==
   dependencies:
-    fs-extra "^10.0.0"
+    fs-extra "^10.0.1"
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.8.tgz#be4339db38cd7cfcf883504df3770314616f1f49"
-  integrity sha512-ZeSwhJ0EaXGHKrgeTuqHpYvHZIyKS/k2edlr7jsvVZkfHlME464/thfTP+bqV6foApjp7i27IFOJ3n45HO0hcQ==
+"@automatons/typescript-client-axios@^1.0.36":
+  version "1.0.36"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.36.tgz#7f9dd9aed661ad5583688b29af07371019bd2e79"
+  integrity sha512-RTudnKWjsnCfaP+KDhvqcuWZeK3JPTEdo1WVQo/HhFXzDrPY5cPXMuE82DOXuabbC1pqsi+n3RsGI1SLhiPizQ==
   dependencies:
-    "@automatons/parser" "^0.0.63"
-    "@automatons/tools" "^1.0.8"
+    "@automatons/parser" "^0.0.84"
+    "@automatons/tools" "^1.0.67"
     eslint "^8.7.0"
     fs-extra "^9.0.0"
     glob "^7.2.0"
@@ -2185,10 +2185,10 @@ fs-exists-sync@^0.1.0:
   resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
   integrity sha1-mC1ok6+RjnLQjeyehnP/K1qNat0=
 
-fs-extra@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
-  integrity sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==
+fs-extra@^10.0.0, fs-extra@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.1.tgz#27de43b4320e833f6867cc044bfce29fdf0ef3b8"
+  integrity sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
