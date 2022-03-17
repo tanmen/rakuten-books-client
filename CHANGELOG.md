@@ -1,3 +1,11 @@
+## [1.0.11](https://github.com/tanmen/rakuten-books-client/compare/v1.0.10...v1.0.11) (2022-03-17)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @automatons/typescript-client-axios ([317839a](https://github.com/tanmen/rakuten-books-client/commit/317839a3312c94d2080715caa82496c8018894c9))
+* **deps-dev:** bump typescript from 4.5.5 to 4.6.2 ([1cd4393](https://github.com/tanmen/rakuten-books-client/commit/1cd439308252edc7d4ad333d97fcea657312829b))
+
 ## [1.0.10](https://github.com/tanmen/rakuten-books-client/compare/v1.0.9...v1.0.10) (2022-03-17)
 
 
