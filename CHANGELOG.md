@@ -1,3 +1,11 @@
+## [1.0.10](https://github.com/tanmen/rakuten-books-client/compare/v1.0.9...v1.0.10) (2022-03-17)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 17.0.13 to 17.0.21 ([9a4af6e](https://github.com/tanmen/rakuten-books-client/commit/9a4af6e86333bcf8c96168fa1f594514a58ceeb7))
+* **deps:** bump axios from 0.25.0 to 0.26.1 ([b55a43f](https://github.com/tanmen/rakuten-books-client/commit/b55a43f9f71aa214393737c941e953ff2a8f35ab))
+
 ## [1.0.9](https://github.com/tanmen/rakuten-books-client/compare/v1.0.8...v1.0.9) (2022-03-17)
 
 
