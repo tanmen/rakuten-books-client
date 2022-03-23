@@ -2,32 +2,32 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.95":
-  version "0.0.95"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.95.tgz#4bf1dfe8dbcef8baefd55f53629a4537c3a3de90"
-  integrity sha512-ksPAhC+g4/+J+/Xv5HVxmF60GcxxIWvWFEMaGLD57z3+zgMXHj2+Qq0M6FK7cwPBAURofewShKskFA0E/tC66A==
+"@automatons/parser@^0.0.98":
+  version "0.0.98"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.98.tgz#a8efd2b96fd6e739f0c3a253983fb755dbdcf14c"
+  integrity sha512-HzwoN56eVAbUHoW0VmgKO5TJ+xA01/lXnRsE78mNn85RJPiZnGSjHKsOR3EuxL8DGm35yoqxa7XnFm0hDOSkFQ==
   dependencies:
-    "@automatons/tools" "^1.0.90"
+    "@automatons/tools" "^1.0.92"
     change-case "^4.1.1"
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.67", "@automatons/tools@^1.0.90":
-  version "1.0.90"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.90.tgz#a8a0452a8d848143e27643a2eadc75eefaf96558"
-  integrity sha512-uZM5BjgQczSe0CmYITZ3s2W7FEKio/l+nO0ZcvNA7vvR+i6uS+DTEAnVW+A2150eZKSX8aArjtZ6RJLjNk9Dcw==
+"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.92", "@automatons/tools@^1.0.94":
+  version "1.0.94"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.94.tgz#6b9208d1e14335af7087ac6413710ef35a48f622"
+  integrity sha512-iIZ8c4729Nh1EhxZBLOko1ftAcy/jY/ihfTLfaHRlynX3b8K4m5M2k3qfcPi25jQTfH1E3f9Bbi4VmrHoGwwgQ==
   dependencies:
     fs-extra "^10.0.1"
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.49":
-  version "1.0.49"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.49.tgz#646d06bd02dee879f7e6d3bb4dc58b0411d8803b"
-  integrity sha512-l35SPQkL6fBGNchomM4XmE0MSWq3T38raV0jIShsWQ+4QfgBhVLEERhZ2W+MHecLtLs+IPQP+ncKrV6kwxEpAw==
+"@automatons/typescript-client-axios@^1.0.54":
+  version "1.0.54"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.54.tgz#c48d4f5930fc99dff17d5cb210b0a89f4d65ef29"
+  integrity sha512-Tw3U7EOWxTg76FFlSDLBkIIYp7l+jUq3fflaPeqDLlFuA1JCiEtWcygrKORthJQxL2PWZsL2ztsqXMOb930fmw==
   dependencies:
-    "@automatons/parser" "^0.0.95"
-    "@automatons/tools" "^1.0.67"
+    "@automatons/parser" "^0.0.98"
+    "@automatons/tools" "^1.0.94"
     eslint "^8.11.0"
     fs-extra "^10.0.1"
     glob "^7.2.0"
