@@ -12,22 +12,22 @@
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.94":
-  version "1.0.94"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.94.tgz#6b9208d1e14335af7087ac6413710ef35a48f622"
-  integrity sha512-iIZ8c4729Nh1EhxZBLOko1ftAcy/jY/ihfTLfaHRlynX3b8K4m5M2k3qfcPi25jQTfH1E3f9Bbi4VmrHoGwwgQ==
+"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.94", "@automatons/tools@^1.0.95":
+  version "1.0.95"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.95.tgz#e91a8b8099cab55aee3f687d4c7e2510d329cc8e"
+  integrity sha512-wSGmpvbQMnHyQTM/qpNhV5DLInh92QT+lY/lQuz7x221PriCWysRhYELygiIEpPyl/8qHX6Yz4LTSp5QAmTbNg==
   dependencies:
     fs-extra "^10.0.1"
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.55":
-  version "1.0.55"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.55.tgz#10323dd6f1210eb4ab67192799b9407112a5a015"
-  integrity sha512-/YM1nP8d7SgjozeQy55+YSzJMdFpk7q+A1JjrrPlpce4nzsnOtrgxQ+viBf7r0q1IhBLcw7A0eKbvzV1SICpXg==
+"@automatons/typescript-client-axios@^1.0.56":
+  version "1.0.56"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.56.tgz#bba2ec3be5155dd587d127757264e263e90b1f97"
+  integrity sha512-G0TnpBIyospbVc3/CObG+MyBQuokUlTYf/H9Lr9xQND5cxgftcuZv31V5Tdcv9H3m7cuuJKfgWg9H5sOPaO/8A==
   dependencies:
     "@automatons/parser" "^0.0.100"
-    "@automatons/tools" "^1.0.94"
+    "@automatons/tools" "^1.0.95"
     eslint "^8.11.0"
     fs-extra "^10.0.1"
     glob "^7.2.0"
