@@ -2,38 +2,38 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.102":
-  version "0.0.102"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.102.tgz#d7f14e4e41f61c1ff10e9d0ef305d7ff6d466c22"
-  integrity sha512-K78TQRSTR88P/0JTVmcgAHCA3k2x3X+HSzHXFukcifEItX/fYytcCsx32f04YYycggGPCMABbusG3Tq81v8njg==
+"@automatons/parser@^0.0.105":
+  version "0.0.105"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.105.tgz#c0bfdfc228ca3102b7ecdafe5dfabe7a6cc48d4d"
+  integrity sha512-vc/BIXIcAc6fTKB28svmOvyWbbGCI8MzAPPMnH96mMvf/Umh7YF0OGrX63yeSjGLwNf3NIaJQ6x9J51BgX/Opw==
   dependencies:
-    "@automatons/tools" "^1.0.96"
+    "@automatons/tools" "^1.0.100"
     change-case "^4.1.1"
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.63", "@automatons/tools@^1.0.96", "@automatons/tools@^1.0.98":
-  version "1.0.98"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.98.tgz#69e2c607460741a5d08dd53c169abb6a471631d4"
-  integrity sha512-9WRtS3Tz2pugbYgxX+hkdEk5WDAsEuBXLZ3GH8UznoTaaeJVQgb4FOgciO8Gz9r/OD2MpKjgxPa5gfhecPD/IA==
+"@automatons/tools@^1.0.100", "@automatons/tools@^1.0.63":
+  version "1.0.100"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.100.tgz#c94619b0a9fe26fcc7cb2e34b13cbc0ec4a80bdb"
+  integrity sha512-0dWkDoV+xgrsVRuvXOdALFcyloSR1fs/dmVwvvr3xTfL02dO3n9mq160AyyfQ2HQqNSBxzwERCGo4LgUI2Czmg==
   dependencies:
     fs-extra "^10.0.1"
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.62":
-  version "1.0.62"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.62.tgz#8678ada7b91dc0fa4be3009c69232f8c337bd1bb"
-  integrity sha512-BDK/dQkfeAAIJ3vuOnl74qvKwwoerG5wBEmcy4NXC3/tpQLL+lEuzAoSv3+ArSWSbBS+mfgOPaa9NQvi5VxTMA==
+"@automatons/typescript-client-axios@^1.0.67":
+  version "1.0.67"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.67.tgz#71e4e06d3743c314e1330a3e05e3d2f61e656df6"
+  integrity sha512-Q3fXr0UhS4YD5x6SaEuUCED+Tl8kPx6SXMbDmVR5DaTfKx09Lc0i5xFqyf52bzCB469vJkXfnhmyn8719KYUiA==
   dependencies:
-    "@automatons/parser" "^0.0.102"
-    "@automatons/tools" "^1.0.98"
+    "@automatons/parser" "^0.0.105"
+    "@automatons/tools" "^1.0.100"
     eslint "^8.12.0"
     fs-extra "^10.0.1"
     glob "^7.2.0"
     handlebars "^4.7.6"
     handlebars-helpers "^0.10.0"
-    prettier "^2.6.1"
+    prettier "^2.6.2"
 
 "@automatons/validator@^1.0.49":
   version "1.0.49"
@@ -4379,10 +4379,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.1.tgz#d472797e0d7461605c1609808e27b80c0f9cfe17"
-  integrity sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==
+prettier@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
+  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
 
 proc-log@^1.0.0:
   version "1.0.0"
