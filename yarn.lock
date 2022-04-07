@@ -12,7 +12,7 @@
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.100", "@automatons/tools@^1.0.63":
+"@automatons/tools@^1.0.100", "@automatons/tools@^1.0.98":
   version "1.0.100"
   resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.100.tgz#c94619b0a9fe26fcc7cb2e34b13cbc0ec4a80bdb"
   integrity sha512-0dWkDoV+xgrsVRuvXOdALFcyloSR1fs/dmVwvvr3xTfL02dO3n9mq160AyyfQ2HQqNSBxzwERCGo4LgUI2Czmg==
@@ -35,10 +35,10 @@
     handlebars-helpers "^0.10.0"
     prettier "^2.6.2"
 
-"@automatons/validator@^1.0.49":
-  version "1.0.49"
-  resolved "https://registry.yarnpkg.com/@automatons/validator/-/validator-1.0.49.tgz#144fe00234900fa93b8a1cc0bd06b148a9eb468c"
-  integrity sha512-fg3QMSwz8jgumPvM8uW2noZnO5mqC2/n2zEZDVExslRq2FmcskMAPEtiSwe1FlS5aAfH7I5vh/jAr3vssaHPZQ==
+"@automatons/validator@^1.0.76":
+  version "1.0.80"
+  resolved "https://registry.yarnpkg.com/@automatons/validator/-/validator-1.0.80.tgz#7709d3af3fa68a5c9ce49f1673e80103f29cf11e"
+  integrity sha512-ONLxeacKAS9oG+fupPCBDH49qK6zF8DcYdDTbml4t04A7aFO8WHWkhX8FXLeI7RwMFMKBcKXYYLXnbc9hVseig==
   dependencies:
     "@hyperjump/json-schema" "^0.18.4"
 
@@ -4109,14 +4109,14 @@ onetime@^5.1.0, onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-openapi-automatons@^1.0.36:
-  version "1.0.36"
-  resolved "https://registry.yarnpkg.com/openapi-automatons/-/openapi-automatons-1.0.36.tgz#95f17c542bab2f633c7de24beb4555964aa23010"
-  integrity sha512-hk+Gg5lSNKeyYERt3t6FOfEJLNlAdtvgHd+2i4akIS8D+PGOHR/HGDmqq+0v6+OtXwv5yPggVEsRpRK6WBp+Cw==
+openapi-automatons@^1.0.70:
+  version "1.0.70"
+  resolved "https://registry.yarnpkg.com/openapi-automatons/-/openapi-automatons-1.0.70.tgz#f275ecd093840a1589e799cf9fb382ba32ebfefc"
+  integrity sha512-PtUXRAwBlqtBgbBkBHSfmx4eZ+a1ifDDipo7q3uWBsQW5vxNgZTIhLHxKg+iZbBkM3/kmkdW4T4fVHRpInsBCQ==
   dependencies:
-    "@automatons/tools" "^1.0.63"
-    "@automatons/validator" "^1.0.49"
-    chalk "^4.1.2"
+    "@automatons/tools" "^1.0.98"
+    "@automatons/validator" "^1.0.76"
+    chalk "^5.0.0"
     fs-extra "^10.0.0"
     ora "5.4.1"
     yup "0.28.5"
