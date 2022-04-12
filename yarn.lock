@@ -21,14 +21,14 @@
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
-"@automatons/typescript-client-axios@^1.0.67":
-  version "1.0.67"
-  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.67.tgz#71e4e06d3743c314e1330a3e05e3d2f61e656df6"
-  integrity sha512-Q3fXr0UhS4YD5x6SaEuUCED+Tl8kPx6SXMbDmVR5DaTfKx09Lc0i5xFqyf52bzCB469vJkXfnhmyn8719KYUiA==
+"@automatons/typescript-client-axios@^1.0.68":
+  version "1.0.68"
+  resolved "https://registry.yarnpkg.com/@automatons/typescript-client-axios/-/typescript-client-axios-1.0.68.tgz#5ab9334bb6e4c59a4a15f2c1496884c23c573a4a"
+  integrity sha512-24WJowfogiWd7yreLJzUTNWwxCn9SQH8lVaPn/MjBhaj5Qhh58611f7PdBvusnzeDPkY/Q3YLUHo2oRrtWirAQ==
   dependencies:
     "@automatons/parser" "^0.0.105"
     "@automatons/tools" "^1.0.100"
-    eslint "^8.12.0"
+    eslint "^8.13.0"
     fs-extra "^10.0.1"
     glob "^7.2.0"
     handlebars "^4.7.6"
@@ -1874,10 +1874,10 @@ eslint-visitor-keys@^3.3.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@^8.12.0:
-  version "8.12.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.12.0.tgz#c7a5bd1cfa09079aae64c9076c07eada66a46e8e"
-  integrity sha512-it1oBL9alZg1S8UycLm5YDMAkIhtH6FtAzuZs6YvoGVldWjbS08BkAdb/ymP9LlAyq8koANu32U7Ib/w+UNh8Q==
+eslint@^8.13.0:
+  version "8.13.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.13.0.tgz#6fcea43b6811e655410f5626cfcf328016badcd7"
+  integrity sha512-D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==
   dependencies:
     "@eslint/eslintrc" "^1.2.1"
     "@humanwhocodes/config-array" "^0.9.2"
